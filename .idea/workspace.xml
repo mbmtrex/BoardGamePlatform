@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db41281-9320-4c35-9cf0-e5c86406b035" name="Default Changelist" comment="Implementing chess engine again">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3db41281-9320-4c35-9cf0-e5c86406b035" name="Default Changelist" comment="Starting pages &#10;login form test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +52,7 @@
       <updated>1612191315914</updated>
       <workItem from="1612191347784" duration="1177000" />
       <workItem from="1612258477490" duration="1951000" />
-      <workItem from="1612266718060" duration="4338000" />
+      <workItem from="1612266718060" duration="4959000" />
     </task>
     <task id="LOCAL-00001" summary="starting">
       <created>1612191426749</created>
@@ -126,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612287519310</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Starting pages &#10;login form test">
+      <created>1612290000661</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1612290000661</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +157,8 @@
     <MESSAGE value="Implementing Second player function in engine" />
     <MESSAGE value="Implementing chess engine" />
     <MESSAGE value="Implementing chess engine again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing chess engine again" />
+    <MESSAGE value="Starting pages &#10;login form test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting pages &#10;login form test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612287398154">
