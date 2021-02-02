@@ -46,8 +46,25 @@ session_start();
 		<!--This div not outputted but needed to work  -->	
 		<?php include 'php_pages/notOutputted.php'; ?>	
 		<!--   -->
-		
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-1.10.1.min.js"></script>
+        <script src="js/buttons/loginlogout.js"></script>
+        <script src="js/buttons/register.js"></script>
+        <script src="js/defs.js"></script>
+        <script src="js/io.js"></script>
+        <script src="js/board.js"></script>
+        <script src="js/movegen.js"></script>
+        <script src="js/makemove.js"></script>
+        <script src="js/perft.js"></script>
+        <script src="js/evaluate.js"></script>
+        <script src="js/pvtable.js"></script>
+        <script src="js/search.js"></script>
+        <script src="js/protocol.js"></script>
+        <script src="js/gui.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/buttons/loadSaveGame.js"></script>
 
 	</body>
 </html>
