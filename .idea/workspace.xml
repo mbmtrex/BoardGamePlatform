@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db41281-9320-4c35-9cf0-e5c86406b035" name="Default Changelist" comment="Implementing chess engine" />
+    <list default="true" id="3db41281-9320-4c35-9cf0-e5c86406b035" name="Default Changelist" comment="Implementing chess engine again">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +54,7 @@
       <updated>1612191315914</updated>
       <workItem from="1612191347784" duration="1177000" />
       <workItem from="1612258477490" duration="1951000" />
-      <workItem from="1612266718060" duration="3435000" />
+      <workItem from="1612266718060" duration="4338000" />
     </task>
     <task id="LOCAL-00001" summary="starting">
       <created>1612191426749</created>
@@ -117,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612286712847</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Implementing chess engine again">
+      <created>1612287519310</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1612287519310</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +151,8 @@
     <MESSAGE value="Fixing chess engine" />
     <MESSAGE value="Implementing Second player function in engine" />
     <MESSAGE value="Implementing chess engine" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing chess engine" />
+    <MESSAGE value="Implementing chess engine again" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing chess engine again" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612287398154">
@@ -153,10 +163,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1612261450665" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1612286716387">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1612287707130">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612286716387" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612287707130" />
     <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612261457007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
