@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db41281-9320-4c35-9cf0-e5c86406b035" name="Default Changelist" comment="Fixing chess engine" />
+    <list default="true" id="3db41281-9320-4c35-9cf0-e5c86406b035" name="Default Changelist" comment="Implementing Second player function in engine">
+      <change beforePath="$PROJECT_DIR$/js/movegen.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/movegen.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +54,7 @@
       <updated>1612191315914</updated>
       <workItem from="1612191347784" duration="1177000" />
       <workItem from="1612258477490" duration="1951000" />
-      <workItem from="1612266718060" duration="2089000" />
+      <workItem from="1612266718060" duration="2641000" />
     </task>
     <task id="LOCAL-00001" summary="starting">
       <created>1612191426749</created>
@@ -96,7 +98,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612285864276</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implementing Second player function in engine">
+      <created>1612286322184</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1612286322184</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Implementing Second player function in engine">
+      <created>1612286345274</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1612286345274</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +135,8 @@
     <MESSAGE value="removing sadaf!" />
     <MESSAGE value="Adding chess engine" />
     <MESSAGE value="Fixing chess engine" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing chess engine" />
+    <MESSAGE value="Implementing Second player function in engine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing Second player function in engine" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1612261450665">
