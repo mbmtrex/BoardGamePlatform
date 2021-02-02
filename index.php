@@ -43,10 +43,7 @@ session_start();
 		<span id="GameStatus"></span>
 		<button type="button" id="NewGameButton">شروع مجدد</button><br/>
 
-
-
-
-
+	
 	</body>
 </html>
 
