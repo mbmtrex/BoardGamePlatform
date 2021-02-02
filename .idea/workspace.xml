@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db41281-9320-4c35-9cf0-e5c86406b035" name="Default Changelist" comment="Adding chess engine">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3db41281-9320-4c35-9cf0-e5c86406b035" name="Default Changelist" comment="Fixing chess engine" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +52,7 @@
       <updated>1612191315914</updated>
       <workItem from="1612191347784" duration="1177000" />
       <workItem from="1612258477490" duration="1951000" />
-      <workItem from="1612266718060" duration="1791000" />
+      <workItem from="1612266718060" duration="2089000" />
     </task>
     <task id="LOCAL-00001" summary="starting">
       <created>1612191426749</created>
@@ -91,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612261699882</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixing chess engine">
+      <created>1612285864276</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612285864276</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +118,8 @@
     <MESSAGE value="starting" />
     <MESSAGE value="removing sadaf!" />
     <MESSAGE value="Adding chess engine" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding chess engine" />
+    <MESSAGE value="Fixing chess engine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing chess engine" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1612261450665">

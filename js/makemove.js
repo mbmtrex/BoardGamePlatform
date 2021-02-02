@@ -57,91 +57,27 @@ function MovePiece(from, to) {
 
 function MakeMove(move) {
 	
-	var from = FROMSQ(move);
-    var to = TOSQ(move);
-    var side = brd_side;	
-	
-	brd_history[brd_hisPly].posKey = brd_posKey;
-	
-	if( (move & MFLAGEP) != 0) {
-        if(side == COLOURS.WHITE) {
-            ClearPiece(to-10);
-        } else {
-            ClearPiece(to+10);
-        }
-    } else if ( (move & MFLAGCA) != 0) {
-        switch(to) {
-            case SQUARES.C1:
-                MovePiece(SQUARES.A1, SQUARES.D1);
-			break;
-            case SQUARES.C8:
-                MovePiece(SQUARES.A8, SQUARES.D8);
-			break;
-            case SQUARES.G1:
-                MovePiece(SQUARES.H1, SQUARES.F1);
-			break;
-            case SQUARES.G8:
-                MovePiece(SQUARES.H8, SQUARES.F8);
-			break;
-            default: break;
-        }
-    }	
-	
-	if(brd_enPas != SQUARES.NO_SQ) HASH_EP();
-    HASH_CA();
-	
-	brd_history[brd_hisPly].move = move;
-    brd_history[brd_hisPly].fiftyMove = brd_fiftyMove;
-    brd_history[brd_hisPly].enPas = brd_enPas;
-    brd_history[brd_hisPly].castlePerm = brd_castlePerm;
-
-    brd_castlePerm &= CastlePerm[from];
-    brd_castlePerm &= CastlePerm[to];
-    brd_enPas = SQUARES.NO_SQ;
-
-	HASH_CA();
-	
-	var captured = CAPTURED(move);
-    brd_fiftyMove++;
-	
-	if(captured != PIECES.EMPTY) {
-        ClearPiece(to);
-        brd_fiftyMove = 0;
+	//  Implement second player here
     }
-	
-	brd_hisPly++;
-	brd_ply++;
-	
-	if(PiecePawn[brd_pieces[from]] == BOOL.TRUE) {
-        brd_fiftyMove = 0;
-        if( (move & MFLAGPS) != 0) {
-            if(side==COLOURS.WHITE) {
-                brd_enPas=from+10;
-            } else {
-                brd_enPas=from-10;
-            }
-            HASH_EP();
-        }
-    }
-	
+
 	MovePiece(from, to);
-	
+
 	var prPce = PROMOTED(move);
-    if(prPce != PIECES.EMPTY)   {       
+    if(prPce != PIECES.EMPTY)   {
         ClearPiece(to);
         AddPiece(to, prPce);
     }
-		
+
 	brd_side ^= 1;
     HASH_SIDE();
-	
-	
+
+
 	if(SqAttacked(brd_pList[PCEINDEX(Kings[side],0)], brd_side))  {
         TakeMove();
         return BOOL.FALSE;
     }
-	
-	return BOOL.TRUE;	
+
+	return BOOL.TRUE;
 }
 
 
