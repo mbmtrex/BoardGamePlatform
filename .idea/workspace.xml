@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db41281-9320-4c35-9cf0-e5c86406b035" name="Default Changelist" comment="Adding">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3db41281-9320-4c35-9cf0-e5c86406b035" name="Default Changelist" comment="Fixing">
+      <change afterPath="$PROJECT_DIR$/chMult/pages/UserLogin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
       <updated>1612191315914</updated>
       <workItem from="1612191347784" duration="1177000" />
       <workItem from="1612258477490" duration="1951000" />
-      <workItem from="1612266718060" duration="24049000" />
+      <workItem from="1612266718060" duration="24734000" />
     </task>
     <task id="LOCAL-00001" summary="starting">
       <created>1612191426749</created>
@@ -322,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612377847208</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Fixing">
+      <created>1612378657751</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1612378657751</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +366,8 @@
     <MESSAGE value="Changing index" />
     <MESSAGE value="Adding teammates editions" />
     <MESSAGE value="Adding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding" />
+    <MESSAGE value="Fixing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612287398154">
@@ -370,10 +378,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1612261450665" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1612378362844">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1612378666815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612378362844" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612378666815" />
     <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612261457007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
