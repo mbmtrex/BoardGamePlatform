@@ -21,10 +21,11 @@
 	
 	</head>
 	<body>
-	<h2> عزیز خوش آمدید <span style="color:green"><?php
+	<h1> عزیز خوش آمدید <span style="color:green"><?php
 	echo $_SESSION['UserName'];
-	?></span></h2>
-	
+	?></span></h1>
+    <h4>افراد حاضر در اتاق</h4>
+	<br>
 	
 		<div id="AvailablePlayers">
 		</div>
