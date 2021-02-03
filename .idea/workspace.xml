@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db41281-9320-4c35-9cf0-e5c86406b035" name="Default Changelist" comment="Adding teammates editions" />
+    <list default="true" id="3db41281-9320-4c35-9cf0-e5c86406b035" name="Default Changelist" comment="Adding" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +52,7 @@
       <updated>1612191315914</updated>
       <workItem from="1612191347784" duration="1177000" />
       <workItem from="1612258477490" duration="1951000" />
-      <workItem from="1612266718060" duration="19831000" />
+      <workItem from="1612266718060" duration="20598000" />
     </task>
     <task id="LOCAL-00001" summary="starting">
       <created>1612191426749</created>
@@ -264,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612371623968</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Adding">
+      <created>1612373420807</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1612373420807</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +307,8 @@
     <MESSAGE value="db testing" />
     <MESSAGE value="Changing index" />
     <MESSAGE value="Adding teammates editions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding teammates editions" />
+    <MESSAGE value="Adding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612287398154">
