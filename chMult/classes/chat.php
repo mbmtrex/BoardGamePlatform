@@ -65,8 +65,10 @@ class chat {
 				$rowUser = $UserReq->fetch();
 				if ($rowChat["chatGameId"] == 0) {
 					?>
-					<span class="UserNameS"><?php echo $rowUser['UserName'];?></span> says: 
-					<span class="ChatMessageS"><?php echo $rowChat['ChatText'];?></span></br>
+
+					<span class="UserNameS" ><?php echo $rowUser['UserName'];?></span><span style="color: green"> میگه:</span>
+                    <span class="ChatMessageS"><?php echo $rowChat['ChatText'];?></span>
+					</br>
 					<?php
 				}
 			}

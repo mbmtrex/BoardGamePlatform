@@ -100,9 +100,9 @@ class user{
 				$token = $row["GameId"];
 				if($row["UserName"] != $_SESSION['UserName']) { // if opponent name
 					if ($row["GameId"] != 0) {
-						$available = "not available";
+						$available = "درحال بازی";
 					}else{
-						$available = "available";
+						$available = "آماده";
 					}
 					if ($token==0){
 							$token=rand(10000, 10000000);
@@ -120,7 +120,7 @@ class user{
 						
 					}
 					?>
-						</span> is 
+						</span>
 						<span class="ChatMessageS" > <?php echo $available;?>
 						</span> </br>
 					<?php
