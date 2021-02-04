@@ -59,10 +59,10 @@ function MakeMove(move) {
 	
 	var from = FROMSQ(move);
     var to = TOSQ(move);
-    var side = brd_side;
-
+    var side = brd_side;	
+	
 	brd_history[brd_hisPly].posKey = brd_posKey;
-
+	
 	if( (move & MFLAGEP) != 0) {
         if(side == COLOURS.WHITE) {
             ClearPiece(to-10);
@@ -85,11 +85,11 @@ function MakeMove(move) {
 			break;
             default: break;
         }
-    }
-
+    }	
+	
 	if(brd_enPas != SQUARES.NO_SQ) HASH_EP();
     HASH_CA();
-
+	
 	brd_history[brd_hisPly].move = move;
     brd_history[brd_hisPly].fiftyMove = brd_fiftyMove;
     brd_history[brd_hisPly].enPas = brd_enPas;
@@ -100,18 +100,18 @@ function MakeMove(move) {
     brd_enPas = SQUARES.NO_SQ;
 
 	HASH_CA();
-
+	
 	var captured = CAPTURED(move);
     brd_fiftyMove++;
-
+	
 	if(captured != PIECES.EMPTY) {
         ClearPiece(to);
         brd_fiftyMove = 0;
     }
-
+	
 	brd_hisPly++;
 	brd_ply++;
-
+	
 	if(PiecePawn[brd_pieces[from]] == BOOL.TRUE) {
         brd_fiftyMove = 0;
         if( (move & MFLAGPS) != 0) {
@@ -123,25 +123,25 @@ function MakeMove(move) {
             HASH_EP();
         }
     }
-
+	
 	MovePiece(from, to);
-
+	
 	var prPce = PROMOTED(move);
-    if(prPce != PIECES.EMPTY)   {
+    if(prPce != PIECES.EMPTY)   {       
         ClearPiece(to);
         AddPiece(to, prPce);
     }
-
+		
 	brd_side ^= 1;
     HASH_SIDE();
-
-
+	
+	
 	if(SqAttacked(brd_pList[PCEINDEX(Kings[side],0)], brd_side))  {
         TakeMove();
         return BOOL.FALSE;
     }
-
-	return BOOL.TRUE;
+	
+	return BOOL.TRUE;	
 }
 
 

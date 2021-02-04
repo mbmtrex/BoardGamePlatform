@@ -197,9 +197,117 @@ function flipGameOnceIfBlack() {
 }
 
 function MakeUserMove2() {
+	$colorplayer=UserColor();
+	// if (colorplayer==1 and GameController.PlayerSide ==1) or (colorplayer==0 and GameController.PlayerSide ==0)then do everything
 
+	if(UserMove.from != SQUARES.NO_SQ && UserMove.to != SQUARES.NO_SQ) {
+		
+		//console.log("User Move:" + PrSq(UserMove.from) + PrSq(UserMove.to));
+		
+		var parsed = ParseMove(UserMove.from,UserMove.to);
+		
+		DeselectSq(UserMove.from);
+		DeselectSq(UserMove.to);
+		
+		//console.log("Parsed:" + parsed);
+		
+		//alert("before: color " +$colorplayer+" brdside" +brd_side); 
+		if(parsed != NOMOVE && (($colorplayer==0 && brd_side ==0) || ($colorplayer==1 && brd_side ==1))) {
+			MakeMove(parsed);
+			MoveGUIPiece(parsed);
+			
+			CheckAndSet();
+			/* 
+				PreSearch(); Only when playing against computer
+				When a move is made we need to change the move condition to 
+				the opponent
+				White gives brd_side = 1, black gives brd_side = 0 
+			*/
+			
+			GameController.PlayerSide = brd_side;	
+			//alert("inside after color " +$colorplayer+" brdside" +brd_side); 
+			//alert(brd_side); 
+		} else {
+			if(parsed != NOMOVE){
+				GameController.PlayerSide = brd_side;	
+			}
+		}
+		UserMove.from = SQUARES.NO_SQ;
+		UserMove.to = SQUARES.NO_SQ; 
+		//alert("outside: color " +$colorplayer+" brdside" +brd_side); 
+		//---------------------------------------------------------
+		//Nytt		
+		var MoveString = BoardToFen();
+				$.ajax({
+					type:'POST',
+					url:'../InsertMove.php',
+					data:{MoveString:MoveString},
+					dataType:'json',
+					success:function(data){
+						//alert(data.msg);
+						
+				}
+		})
+				
+		//---------------------------------------------------------
+		}
+		
+	
 }
+var timesRun = 0;
+var startTime = new Date().getTime();
 
+var timesRun = 0;
+var startTime = new Date().getTime();
+var MoveString = BoardToFen();
+function loadLMove(){ 
+		
+
+       $.ajax({
+			type:'POST',
+			url:'../DisplayMove.php',
+			data:{MoveString:MoveString},
+			dataType:'json',
+			cache: false,
+			//timeout: 20000,
+			success:function(data){
+				if (data.msg != ""){
+                    if (MoveString!=data.msg){
+						var now = new Date().getTime();
+						//alert(data.msg);
+						ParseFen(data.msg);
+						++timesRun;
+						 console.log('Move displayed: ' + data.msg + 'Action ' + timesRun + ' started ' + (now - startTime) + 'ms after script start');
+						//PrintBoard();		
+						SetInitialBoardPieces();	
+						GameController.PlayerSide = brd_side;	
+						CheckAndSet();	
+						
+						EvalPosition();	
+						//PerftTest(5);
+						//newGameAjax();
+						MoveString=data.msg;
+						}
+				} else{
+                    if (MoveString!=data.msg){
+						ParseFen("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
+						//PrintBoard();		
+						SetInitialBoardPieces();	
+						GameController.PlayerSide = brd_side;	
+						CheckAndSet();	
+						
+						EvalPosition();	
+						//PerftTest(5);
+						//newGameAjax();
+                    }
+				}
+			}
+        });
+		
+}
+//---------------------------------------------------------
+loadLMove();
+setInterval(loadLMove,2000);
 //---------------------------------------------------------
 
 
