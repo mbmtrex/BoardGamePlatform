@@ -10,7 +10,13 @@ CREATE TABLE users(
 	PRIMARY KEY (UserId)
 );
 	
-
+CREATE TABLE chats(
+	ChatId int(11) NOT NULL auto_increment,
+	ChatUserId int(11) NOT NULL,
+	chatGameId int(11) NOT NULL,
+	ChatText varchar(50) NOT NULL,
+	PRIMARY KEY (ChatId)
+);
 	
 	
 
