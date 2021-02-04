@@ -22,16 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db41281-9320-4c35-9cf0-e5c86406b035" name="Default Changelist" comment="Adding db test files">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="3db41281-9320-4c35-9cf0-e5c86406b035" name="Default Changelist" comment="Changing names and fixing new bugs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chMult/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/chMult/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chMult/pages/Ch/js/guiMultiPlayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/chMult/pages/Ch/js/guiMultiPlayer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chmult.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/connectToDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/connectToDB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chMult/pages/indexMult.php" beforeDir="false" afterPath="$PROJECT_DIR$/chMult/pages/indexMult.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/makemove.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/makemove.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/movegen.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/movegen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/buttons/loginlogout.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/loginlogout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php_pages/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_pages/register.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +52,11 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\x\BoardgameOnline\js" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,13 +68,34 @@
       <workItem from="1612098180375" duration="2491000" />
       <workItem from="1612265695461" duration="22991000" />
     </task>
+    <task id="LOCAL-00001" summary="Changing names and fixing new bugs">
+      <created>1612458864937</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612458864937</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changing names and fixing new bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing names and fixing new bugs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="475" y="55" key="#PHP" timestamp="1612099430706">
@@ -92,9 +114,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1612098590942" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1612371077783">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1612459689149">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1612371077783" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1612459689149" />
   </component>
 </project>

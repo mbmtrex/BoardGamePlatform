@@ -20,17 +20,17 @@ $("#logout_submit").click(function () {
 			registerButton.show();
 			SaveLoadOutput.hide();
 			logInForm.show();
-			
-		} 
+
+		}
 	},
    'json');
-});	
+});
 
 $("#submit").click(function () {
 	var username = $("#username").val(); // id=lMoveSQL finns i main.php
 	var password = $("#password").val();
-	var errorMSG = "Wrong username or password";
-	//alert("hej");
+	var errorMSG = "رمز عبور یا نام کاربری اشتباه می باشد";
+
 	$.post('php_pages/checkLogin.php', {username: username,password: password}, function(data){
 
 		if (data.loggedin == "true"){
@@ -50,4 +50,4 @@ $("#submit").click(function () {
 		}
 	},
    'json');
-});	
+});

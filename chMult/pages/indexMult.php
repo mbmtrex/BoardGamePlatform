@@ -36,6 +36,10 @@
 		<span style="color:green">گفت و گو با همه</span><br/>
 		<textarea id="ChatText" name="ChatText"></textarea>
 	</div>
+
+    <div >
+        <input type="button" onclick="parent.location='../../index.php';" value="بازگشت" />
+    </div>
 	
 	<script src="../js/jquery.js"></script>	
 	<script src="../js/availablePlayers.js"></script>

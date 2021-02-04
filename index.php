@@ -52,7 +52,7 @@ session_start();
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/jquery-1.10.1.min.js"></script>
-		<script src="js/buttons/loginlogout.js"></script>
+		<script src="js/loginlogout.js"></script>
 		<script src="js/buttons/register.js"></script>
 		<script src="js/defs.js"></script>
 		<script src="js/io.js"></script>

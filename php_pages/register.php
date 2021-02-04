@@ -8,7 +8,7 @@ if (isset($_POST['regusername'])) {
 	$q = $_db->prepare($sql);
 	$q->execute(array(':UserName'=>$username, ':UserPassword'=>$password));	
 	$_SESSION['username'] = $username;
-	$output = array("msg"=>"Hello $username! ثبت نام موفق بود وارد اکانت  شدید ", "loggedin"=>"true");
+	$output = array("msg"=>"Hello $username! ثبت نام موفق بود لطفا وارد اکانت شوید ", "loggedin"=>"true");
 	echo json_encode($output);	
 }
 ?>
