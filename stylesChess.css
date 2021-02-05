@@ -3,7 +3,7 @@
 	left: 60px;
 }
 
-#fenIn { 
+#fenIn {
  width: 480px;
  left: 60px;
 }
@@ -16,8 +16,8 @@
 #LoadingBook {
 	position: absolute;
 	left: 600px;
-	top: 150px;	
-	
+	top: 150px;
+
 }
 
 #CurrentFenDiv {
@@ -39,20 +39,20 @@
 #SaveLoadOutput {
 	position: absolute;
 	left: 600px;
-	top: 120px;	
+	top: 120px;
 }
 
 #NewGameButton{
 	position: absolute;
 	left: 600px;
-	top: 300px;	
+	top: 300px;
 }
 
 #GameStatus {
 	position: absolute;
 	left: 600px;
-	top: 270px;	
-	
+	top: 270px;
+
 }
 #GameStatus {
 animation-duration:1000ms;
@@ -83,7 +83,7 @@ animation-iteration-count:infinite;
 #form_container {
 	position: absolute;
 	left: 750px;
-	top: 250px;	
+	top: 250px;
 }
 #log{
 	position: absolute;
@@ -93,7 +93,7 @@ animation-iteration-count:infinite;
 #EngineOutput {
 	position: absolute;
 	left: 600px;
-	top: 250px;	
+	top: 250px;
 }
 
 #ThinkingImageDiv {
@@ -116,7 +116,7 @@ animation-iteration-count:infinite;
 }
 
 .Square {
-	position: absolute;	
+	position: absolute;
 	width: 60px;
 	height: 60px;
 }
