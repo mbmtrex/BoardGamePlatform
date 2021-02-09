@@ -22,10 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db41281-9320-4c35-9cf0-e5c86406b035" name="Default Changelist" comment="ADDING README">
+    <list default="true" id="3db41281-9320-4c35-9cf0-e5c86406b035" name="Default Changelist" comment="Changing page style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chMult/classes/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/chMult/classes/user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chMult/pages/indexMult.php" beforeDir="false" afterPath="$PROJECT_DIR$/chMult/pages/indexMult.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chMult/style/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
       <updated>1612098179263</updated>
       <workItem from="1612098180375" duration="2491000" />
       <workItem from="1612265695461" duration="22991000" />
-      <workItem from="1612854151185" duration="5966000" />
+      <workItem from="1612854151185" duration="6839000" />
     </task>
     <task id="LOCAL-00001" summary="Changing names and fixing new bugs">
       <created>1612458864937</created>
@@ -101,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612551645679</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changing page style">
+      <created>1612860528371</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612860528371</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +134,8 @@
     <MESSAGE value="Final check" />
     <MESSAGE value="Final review" />
     <MESSAGE value="ADDING README" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADDING README" />
+    <MESSAGE value="Changing page style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing page style" />
   </component>
   <component name="WindowStateProjectService">
     <state x="475" y="55" key="#PHP" timestamp="1612099430706">
@@ -145,10 +154,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1612098590942" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1612551651153">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1612860534351">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612551651153" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612860534351" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1612459689149">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

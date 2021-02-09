@@ -102,7 +102,7 @@ class user{
 					if ($row["GameId"] != 0) {
 						$available = "درحال بازی";
 					}else{
-						$available = "آماده";
+						$available = "آماده می باشد";
 					}
 					if ($token==0){
 							$token=rand(10000, 10000000);

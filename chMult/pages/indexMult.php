@@ -20,7 +20,7 @@
 		
 	
 	</head>
-	<body style="border-style: double">
+	<body id="BodyStyle">
 	<h1 id="MyHeader1"><span style="color:green"><?php
 	echo $_SESSION['UserName'];
 	?></span> عزیز خوش آمدید   </h1>
@@ -38,8 +38,8 @@
 		<textarea id="ChatText" name="ChatText"></textarea>
 	</div>
 
-    <div >
-        <input type="button" onclick="parent.location='../../index.php';" value="بازگشت" />
+    <div  >
+        <input id=ButtonStyle type="button" onclick="parent.location='../../index.php';" value="بازگشت" />
     </div>
 	
 	<script src="../js/jquery.js"></script>	
