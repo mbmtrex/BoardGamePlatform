@@ -1,36 +1,36 @@
-<!-- Login------------------------------------------------------------>	
-	<div type="text" id="log">
-		<div type="text" id="logform" >
-			<label for="username">نام کاربری </label>
-			<input type="text" id="username" />
+<!-- Login------------------------------------------------------------>
+	<div type="text" id="log" style="border-style: solid;left: 10vw ;padding:1vw;background-color: #5cb85c">
+		<div type="text" id="logform" st>
+			<label for="username">نام کاربری</label>
+			<input type="text" id="username" style="width: 20vw" />
 			<br/>
-			<label for="password">رمز عبور</label>
-			<input type="password" id="password" />
+			<label for="password">رمز عبور  </label>
+			<input type="password" id="password" style="width: 20vw; margin-right: 0.2vw; margin-top: 1vw; margin-bottom: 1vw" />
 			<br/>
-			<input type="submit" id="submit" value="                  ورود                  " >
-
+			<input style="padding-right: 4vw; padding-left: 4vw" type="submit" id="submit"  value=" ورود " >
+            <input type="submit" id="logout_submit" value="خروج" style="display:none">
+            <input type="submit" id="registerButton"  style="padding-right: 4vw; padding-left: 4vw; margin-right: 2vw" value=" ثبت نام">
             <br/>
-                </div>	
-		<input type="submit" id="logout_submit" value="خروج" style="display:none">
-		<input type="submit" id="registerButton" value="                   ثبت نام                ">
+        </div>
+
 		
 		<div id="infoSQL" ></div>
 	</div>
 <!-- Form------------------------------------------------------------>	
-<div type="text" id="form_container" method="post" style="display:none">
-	<div class="field">
-		<label for="regusername">نام کاربری را وارد کنید</label>
+<div type="text" id="form_container" method="post" style="display:none; border-style:solid ; left: 7vw; padding: 1vw; background-color: lightgreen">
+	<div class="field" style="margin-bottom: 1vw; text-align: center">
+		<label for="regusername ">نام کاربری را وارد کنید</label>
 		<input type="text" name="regusername" id="regusername" value="">
 	</div>
-	<div class="field">
+	<div class="field" style="text-align: center; margin-bottom: 1vw">
 		<label for="regpassword">رمز عبور را وارد کنید</label>
 		<input type="password" name="regpassword" id="regpassword">
 	</div>
-	<div class="field">
-		<label for="regpassword_again">دوباره رمز عبور را وارد کنید</label>
+	<div class="field" style="text-align: center; margin-bottom: 1vw">
+		<label for="regpassword_again">مجددا رمز عبور را وارد کنید</label>
 		<input type="password" name="regpassword_again" id="regpassword_again">
 	</div>
-	
-	<input type="submit" id="register_submit" value="ثبت نام">
-</div>	
+
+	<input style="text-align: center; margin-right: 13vw; padding-right: 1vw; padding-left: 1vw" type="submit" id="register_submit" value="ثبت نام">
+</div>
 <!-- Form------------------------------------------------------------>	
