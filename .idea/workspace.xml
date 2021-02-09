@@ -24,10 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3db41281-9320-4c35-9cf0-e5c86406b035" name="Default Changelist" comment="MainPage done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php_pages/checkLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_pages/checkLogin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php_pages/lMoveSaveToSQL.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_pages/lMoveSaveToSQL.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php_pages/loadLMoveSQL.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_pages/loadLMoveSQL.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php_pages/loginForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_pages/loginForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php_pages/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_pages/register.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +80,7 @@
       <updated>1612098179263</updated>
       <workItem from="1612098180375" duration="2491000" />
       <workItem from="1612265695461" duration="22991000" />
-      <workItem from="1612854151185" duration="21698000" />
+      <workItem from="1612854151185" duration="22522000" />
     </task>
     <task id="LOCAL-00001" summary="Changing names and fixing new bugs">
       <created>1612458864937</created>
@@ -169,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612875331733</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="MainPage done">
+      <created>1612876754770</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1612876754770</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,13 +223,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1612098590942" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1612873815568">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1612876758609">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612873815568" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1612873309960">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612876758609" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1612880224956">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1612873309960" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1612880224956" />
   </component>
 </project>
