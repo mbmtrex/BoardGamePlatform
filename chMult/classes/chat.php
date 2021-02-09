@@ -116,7 +116,7 @@ class chat {
 				));		
 				$rowUser = $UserReq->fetch();
 				?>
-				<span class="UserNameS"><?php echo $rowUser['UserName'];?></span> says: 
+				<span style="color: red" class="UserNameS"><?php echo $rowUser['UserName'];?></span> میگه:
 				<span class="ChatMessageS"><?php echo $rowChat['ChatText'];?></span></br>
 				<?php
 			

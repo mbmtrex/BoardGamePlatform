@@ -11,19 +11,19 @@
 	*/
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 	<head>
 		<META HTTP-EQUIV=Refresh; 
 		<meta charset="utf-8">
 		<meta name="keywords" content="Chess, Engine, Javascript, Play Chess, Chess Program, Javascript Chess, Game">
-		<link rel="stylesheet" href="styles.css"> 
+		<link rel="stylesheet" href="../CSS/styles.css">
 		<title>Chess</title>
-		<link href="styles.css" rel="stylesheet" type="text/css">
+		<link href="../CSS/styles.css" rel="stylesheet" type="text/css">
 		<script type="text/javascript"> if (!window.console) console = {log: function() {}}; </script>
 	</head>
-	<body>
+	<body style="background:#bed2ee ">
 		<header>
-			<h1 style="text-align: center">شطرنج دو نفره</h1>
+			<h1 id="MyHeader3",style="text-align: center">شطرنج دو نفره</h1>
 			
 		</header>
 		   
@@ -39,17 +39,20 @@
 		<div id="Board">
 		</div>
 		<div id="CurrentFenDiv" >
-			<span id="currentFenSpan" style="display:none;></span>		
-		</div>				
-		<div id="ChatMessages">
+			<span id="currentFenSpan" style="display:none"></span>
+		</div>
+		<div id="ChatMessages2">
 		</div>
 		<div id="AvailablePlayers"></div>
-		
-		<div id="ChatMessages"></div>
-		<div id="ChatBig"> 
-			<span style="color:Red">گفت و گو با حریف</span><br/>
-			<textarea id="ChatText" name="ChatText"></textarea>
-		</div>
+        <div id="BigChatBox">
+            <div id="ChatBig2">
+                <span style="color:Red;tex">گفت و گو با حریف</span><br/>
+                <textarea id="ChatText" name="ChatText"></textarea>
+            </div>
+		    <div id="ChatMessages"></div>
+
+
+        </div>
 		<button type="button" id="NewGameButton">شروع بازی جدید</button><br/>
 		<span id="GameStatus"></span>
 <!--This div not outputted but needed to work  -->			
