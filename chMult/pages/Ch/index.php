@@ -26,13 +26,16 @@
 			<h1 id="MyHeader3",style="text-align: center">شطرنج دو نفره</h1>
 			
 		</header>
-		   
-		<input type="submit" onclick="parent.location='../indexMult.php'" id="deleteGame-submit" value="پیدا کردن حریف جدید">
-		<h2>می باشد <span style="color:Red"><?php echo $_SESSION['Opponent'];?> </span>  عزیز خوش آمدید! &nbsp حریف شما <span style="color:Green"> <?php echo $_SESSION['UserName'];?> </span>
-		</h2>	
-		<div id="FenInDiv" style="display:none;>			
+
+
+		<h2 id="MyHeader4"> <span style="color:Green"><?php echo $_SESSION['Opponent'];?> </span>  عزیز خوش آمدید! &nbsp حریف شما <span style="color:Red"> <?php echo $_SESSION['UserName'];?> </span>می باشد
+		</h2>
+        <button type="button" id="MySecondButton">شروع بازی جدید</button><br/>
+        <input type="submit" onclick="parent.location='../indexMult.php'" id="MyFirstButton" value="پیدا کردن حریف جدید">
+
+        <div id="FenInDiv" style="display:none;>
 			<input type="text" id="fenIn"/>		
-			<button type="button" id="SetFen">Set Position</button>	
+			<button type="button" id="SetFen">Set Position</button>
 		</div>	
 		<div id="ThinkingImageDiv">		
 		</div>
@@ -53,7 +56,7 @@
 
 
         </div>
-		<button type="button" id="NewGameButton">شروع بازی جدید</button><br/>
+
 		<span id="GameStatus"></span>
 <!--This div not outputted but needed to work  -->			
 		<div id="EngineOutput"><br/>

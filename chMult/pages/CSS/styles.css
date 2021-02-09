@@ -12,12 +12,31 @@
 	background-color: darkred;
 }
 
+#MyFirstButton{
+	color: #ff0101;
+	margin-right: 43vw;
+	font-size: 2vw;
+	background-color: #cd7d7d;
+}
+#MySecondButton{
+	color: #1a1c1c;
+	margin-right: 13vw;
+	font-size: 2vw;
+	background-color: #00ffb5;
+}
+#MyHeader4{
+	margin-right: 1vw;
+	border-style: solid;
+	max-width: 39vw;
+	font-size: 2vw;
+	background-color: lightgreen;
+}
 #BigChatBox{
 	border-style: solid;
 
 	position: absolute;
 	left: 40vw;
-	top:20vw;
+	top:19.5vw;
 }
 #NewGameButton{
 	position: absolute;
