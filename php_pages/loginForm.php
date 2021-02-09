@@ -17,7 +17,7 @@
 		<div id="infoSQL" ></div>
 	</div>
 <!-- Form------------------------------------------------------------>	
-<div type="text" id="form_container" method="post" style="display:none; border-style:solid ; left: 7vw; padding: 1vw; background-color: lightgreen">
+<div type="text" id="form_container" method="post" style="display:none; border-style:solid ; left: 9vw; padding: 1vw; background-color: lightgreen; margin-top: 1vw">
 	<div class="field" style="margin-bottom: 1vw; text-align: center">
 		<label for="regusername ">نام کاربری را وارد کنید</label>
 		<input type="text" name="regusername" id="regusername" value="">
@@ -31,6 +31,6 @@
 		<input type="password" name="regpassword_again" id="regpassword_again">
 	</div>
 
-	<input style="text-align: center; margin-right: 13vw; padding-right: 1vw; padding-left: 1vw" type="submit" id="register_submit" value="ثبت نام">
+	<input style="text-align: center; margin-right: 11vw; padding-right: 1vw; padding-left: 1vw" type="submit" id="register_submit" value="ثبت نام">
 </div>
 <!-- Form------------------------------------------------------------>	

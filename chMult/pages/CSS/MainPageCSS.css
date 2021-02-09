@@ -4,20 +4,51 @@
 
 #MainPageHeader{
 
+    border-style:solid;
+    max-height:30vw;
+    max-width: 20vw;
+    font-size: 3vw;
+    background-color: steelblue;
+    margin-right: 40vw;
     text-align: center;
-    border-style: solid;
-    max-width: 10vw;
-    max-height: 10vw;
+
 }
 #Board{
     position: relative;
-    right: 1vw;
+    right: 4vw;
     top: 2vw;
     width: 480px;
     height: 480px;
-    border-style:solid;
+    border-style:dashed;
     border-width:2px;
 }
-#LoginForm{
+#SaveLoadOutput{
+    right: 46vw;
+}
+#lMoveSQL_submit{
+    background-color: #63c4a5;
+    color: #003bec;
 
+    font-size: 1.5vw;
+}
+#lSaveSQL_submit{
+    background-color: #63c4a5;
+    color: #003bec;
+    margin-right: 3vw;;
+    font-size: 1.5vw;
+}
+#multiplayer_submit{
+    background-color: #e2a3c8;
+    color: #ff0000;
+    padding: 1vw;
+    margin-right: 2vw;;
+    font-size: 1.5vw;
+}
+#NewGameButton{
+    background-color: #79ff00;
+    color: #2b2b2b;
+    right: 18vw;
+    margin-top:25vw;
+    margin-bottom: 10vw;
+    font-size: 2vw;
 }

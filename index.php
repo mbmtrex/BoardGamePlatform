@@ -24,14 +24,14 @@ session_start();
 		<?php include 'php_pages/loginForm.php'; ?>
         </div>
 
-		<!--<div id="Board">
-		</div>-->
+		<div id="Board">
+		</div>
         <!--
 		<div id="CurrentFenDiv" style="border-style: solid">
 			<span id="currentFenSpan"></span>
 		</div>
 		!-->
-		<div id="SaveLoadOutput" style="display:none">
+		<div id="SaveLoadOutput" style="display: none">
 			<div id="lMove"></div>
 			<input type="submit" id="lMoveSQL_submit" value="بارگذاری بازی ذخیره شده">
 			<div id="lMoveSQL_data" ></div>
@@ -41,11 +41,12 @@ session_start();
 			<br/>
 			<input type="submit" id="multiplayer_submit"
 			onclick="parent.location='chMult/pages/UserLogin.php'"
-			value="بازی چند نفره">
+			value="پیدا کردن حریف">
 		</div>
 
 		<span id="GameStatus"></span>
-		<button type="button" id="NewGameButton">شروع مجدد</button><br/>
+
+		<button type="button" id="NewGameButton">شروع مجدد</button>
 
 		<!--This div not outputted but needed to work  -->
 		<?php include 'php_pages/notOutputted.php'; ?>	
