@@ -5,7 +5,7 @@
 	$existCount = $sql->rowCount();
 	if ($existCount == 0) {
 		 $_SESSION['username'] = false;
-		 $output = array('msg'=>'Hello $uname  with id $id', 'loggedin'=>'false');
+		 $output = array('msg'=>'$uname  with id $id', 'loggedin'=>'false');
 	}
 	if ($existCount > 0) {
 	    while($row = $sql->fetch(PDO::FETCH_ASSOC)){ 

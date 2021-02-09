@@ -22,10 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db41281-9320-4c35-9cf0-e5c86406b035" name="Default Changelist" comment="Working on main page">
+    <list default="true" id="3db41281-9320-4c35-9cf0-e5c86406b035" name="Default Changelist" comment="MainPage done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chMult/pages/CSS/MainPageCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/chMult/pages/CSS/MainPageCSS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php_pages/checkLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_pages/checkLogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php_pages/lMoveSaveToSQL.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_pages/lMoveSaveToSQL.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php_pages/loadLMoveSQL.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_pages/loadLMoveSQL.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php_pages/loginForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_pages/loginForm.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,11 +66,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\x\BoardgameOnline\js" />
       <recent name="C:\xampp\htdocs\x\BoardgameOnline\chMult\pages" />
       <recent name="C:\xampp\htdocs\x\BoardgameOnline\chMult\pages\CSS" />
       <recent name="C:\xampp\htdocs\x\BoardgameOnline\chMult\pages\Ch" />
       <recent name="C:\xampp\htdocs\x\BoardgameOnline\chMult\pages\Ch\js" />
-      <recent name="C:\xampp\htdocs\x\BoardgameOnline\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -82,7 +83,7 @@
       <updated>1612098179263</updated>
       <workItem from="1612098180375" duration="2491000" />
       <workItem from="1612265695461" duration="22991000" />
-      <workItem from="1612854151185" duration="20247000" />
+      <workItem from="1612854151185" duration="21698000" />
     </task>
     <task id="LOCAL-00001" summary="Changing names and fixing new bugs">
       <created>1612458864937</created>
@@ -161,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612873769528</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="MainPage done">
+      <created>1612875331733</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1612875331733</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +199,8 @@
     <MESSAGE value="Working on second page" />
     <MESSAGE value="Second Page finished" />
     <MESSAGE value="Working on main page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on main page" />
+    <MESSAGE value="MainPage done" />
+    <option name="LAST_COMMIT_MESSAGE" value="MainPage done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="475" y="55" key="#PHP" timestamp="1612099430706">

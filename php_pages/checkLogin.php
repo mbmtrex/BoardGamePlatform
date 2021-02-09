@@ -12,7 +12,7 @@ if (isset($_POST['username'])) {
 	if ($existCount == 0) { // evaluate the count
 		 $_SESSION['username'] = false;
 		 //baraye debug !
-		 $output = array('msg'=>'Hello $uname  with id $id', 'loggedin'=>'false');
+		// $output = array('msg'=>'Hello $uname  with id $id', 'loggedin'=>'false');
 	}
 
 	if ($existCount > 0) {

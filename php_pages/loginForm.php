@@ -8,12 +8,12 @@
 			<input type="password" id="password" style="width: 20vw; margin-right: 0.2vw; margin-top: 1vw; margin-bottom: 1vw" />
 			<br/>
 			<input style="padding-right: 4vw; padding-left: 4vw" type="submit" id="submit"  value=" ورود " >
-            <input type="submit" id="logout_submit" value="خروج" style="display:none">
+
             <input type="submit" id="registerButton"  style="padding-right: 4vw; padding-left: 4vw; margin-right: 2vw" value=" ثبت نام">
             <br/>
         </div>
 
-		
+        <input type="submit" id="logout_submit" value="خروج" style="font-size: 2vw; padding: 1vw;text-align: center;background-color: #983a3a">
 		<div id="infoSQL" ></div>
 	</div>
 <!-- Form------------------------------------------------------------>	
