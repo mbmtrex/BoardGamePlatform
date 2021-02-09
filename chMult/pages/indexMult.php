@@ -24,7 +24,7 @@
 	<h1 id="MyHeader1"><span style="color:green"><?php
 	echo $_SESSION['UserName'];
 	?></span> عزیز خوش آمدید   </h1>
-    <div id="ChatBox">
+    <div id="UserBox">
     <h4 id="MyHeader2">افراد حاضر در اتاق</h4>
 
 		<div id="AvailablePlayers">
@@ -34,8 +34,8 @@
 		</div>
     </div>
 	<div id="ChatBig">
-		<span style="direction: ltr;color: green" >گفت و گو با همه</span><br/>
-		<textarea id="ChatText" name="ChatText"></textarea>
+		<span style="color: black" >گفت و گو با همه</span><br/>
+		<textarea id="ChatText" name="ChatText" rows="5" cols="24" "></textarea>
 	</div>
 
     <div  >

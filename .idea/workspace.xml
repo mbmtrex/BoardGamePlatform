@@ -24,7 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3db41281-9320-4c35-9cf0-e5c86406b035" name="Default Changelist" comment="Changing page style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chMult/classes/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/chMult/classes/user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chMult/pages/indexMult.php" beforeDir="false" afterPath="$PROJECT_DIR$/chMult/pages/indexMult.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Style.css" afterDir="false" />
     </list>
@@ -72,7 +71,7 @@
       <updated>1612098179263</updated>
       <workItem from="1612098180375" duration="2491000" />
       <workItem from="1612265695461" duration="22991000" />
-      <workItem from="1612854151185" duration="6839000" />
+      <workItem from="1612854151185" duration="9840000" />
     </task>
     <task id="LOCAL-00001" summary="Changing names and fixing new bugs">
       <created>1612458864937</created>
@@ -109,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612860528371</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Changing page style">
+      <created>1612861379167</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612861379167</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
