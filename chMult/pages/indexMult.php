@@ -12,28 +12,29 @@
 	}
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 	<META HTTP-EQUIV=Refresh; 
-	<head>
-	<link rel="stylesheet" href="../style/Style.css">
-		<title>Chat Application Home</title>
+	<head style="direction: rtl">
+	<link rel="stylesheet" href="../../css/Style.css">
+
 		
 	
 	</head>
-	<body>
-	<h1> عزیز خوش آمدید <span style="color:green"><?php
+	<body style="border-style: double">
+	<h1 id="MyHeader1"><span style="color:green"><?php
 	echo $_SESSION['UserName'];
-	?></span></h1>
-    <h4>افراد حاضر در اتاق</h4>
-	<br>
-	
+	?></span> عزیز خوش آمدید   </h1>
+    <div id="ChatBox">
+    <h4 id="MyHeader2">افراد حاضر در اتاق</h4>
+
 		<div id="AvailablePlayers">
 		</div>
 		
 		<div id="ChatMessages">
 		</div>
-	<div id="ChatBig"> 
-		<span style="color:green">گفت و گو با همه</span><br/>
+    </div>
+	<div id="ChatBig">
+		<span style="direction: ltr;color: green" >گفت و گو با همه</span><br/>
 		<textarea id="ChatText" name="ChatText"></textarea>
 	</div>
 

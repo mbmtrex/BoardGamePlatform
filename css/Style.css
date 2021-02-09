@@ -1,0 +1,47 @@
+#AvailablePlayers{
+	border-style: solid;
+	max-width: 15vw;
+	max-height: 50vw;
+	margin-right: 2vw;
+	background-color: lightgreen;
+}
+#MyHeader1{
+
+	border-style:solid;
+	max-height:30vw;
+	max-width: 20vw;
+	font-size: 2vw;
+	background-color: steelblue;
+	margin-right: 1vw;
+	text-align: center;
+}
+#MyHeader2{
+
+	border-style:double;
+	max-width: 15vw;
+	max-height: 30vw;
+	font-size: 2vw;
+	background-color: lightgreen;
+	margin-right: 2vw;
+	text-align: center;
+}
+#ChatBox{
+
+	border-style: solid;
+	max-width: 20vw;
+	max-height: 60vw;
+	padding-bottom: 2vw;
+	margin-right: 1vw;
+	background-color: #5cb85c;
+	font-size: 2vw;
+}
+
+#ChatMessages{position: absolute;
+	left: 250px;
+	top: 120px;	}
+#ChatBig{position: absolute;
+	left: 250px;
+	top: 50px;	}
+.UserNameS{color: #0041ff;;}
+.UserNameS:hover{text-decoration: underline;cursor: pointer;}
+
