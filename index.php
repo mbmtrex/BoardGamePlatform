@@ -9,11 +9,13 @@ session_start();
 		<meta name="keywords" content="Chess, Engine, Javascript, Play Chess, Chess Program, Javascript Chess, Game">
 		<title>JSChess</title>		
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/sliderStyle.css">
+        <link rel="stylesheet" href="../CSS/stylesMain.css">
+        <title>Chess</title>
+        <link href="../CSS/stylesMain.css" rel="stylesheet" type="text/css">
 		<link href="stylesChess.css" rel="stylesheet" type="text/css">
 		<script type="text/javascript"> if (!window.console) console = {log: function() {}}; </script>
 	</head>
-	<body>
+	<body style="background-color: #bed2ee">
 
 		<header>
 			<h1 style="text-align: center;">شطرنج</h1>

@@ -22,10 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db41281-9320-4c35-9cf0-e5c86406b035" name="Default Changelist" comment="Working on second page">
+    <list default="true" id="3db41281-9320-4c35-9cf0-e5c86406b035" name="Default Changelist" comment="Second Page finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chMult/pages/CSS/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/chMult/pages/CSS/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chMult/pages/Ch/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/chMult/pages/Ch/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
       <updated>1612098179263</updated>
       <workItem from="1612098180375" duration="2491000" />
       <workItem from="1612265695461" duration="22991000" />
-      <workItem from="1612854151185" duration="15504000" />
+      <workItem from="1612854151185" duration="16480000" />
     </task>
     <task id="LOCAL-00001" summary="Changing names and fixing new bugs">
       <created>1612458864937</created>
@@ -131,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612869214296</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Second Page finished">
+      <created>1612870513390</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1612870513390</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +165,8 @@
     <MESSAGE value="Changing page style" />
     <MESSAGE value="Chat page done" />
     <MESSAGE value="Working on second page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on second page" />
+    <MESSAGE value="Second Page finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second Page finished" />
   </component>
   <component name="WindowStateProjectService">
     <state x="475" y="55" key="#PHP" timestamp="1612099430706">
@@ -178,10 +185,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1612098590942" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1612864891030">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1612870651404">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612864891030" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612870651404" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1612459689149">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
